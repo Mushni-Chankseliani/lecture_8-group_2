@@ -1,0 +1,189 @@
+/*section 1 start*/
+.section-1 {
+	background-color: red;
+}
+
+.bg-image {
+	background-image: url("../images/landscape.jpg");
+	height: 700px;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	display: -webkit-box;
+
+	display: -ms-flexbox;
+
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+
+.bg-image h1 {
+	color: red;
+	font-size: 42px;
+	margin-bottom: 20px;
+}
+
+.bg-image > h2 {
+	color: red;
+	font-size: 32px;
+}
+
+/*section 1 end*/
+
+/*section 2 start*/
+.section-2 {
+	background-color: #FBFCFD;
+	padding: 85px 0 130px;
+}
+
+.section-2-container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.section-2-text {
+	text-align: center;
+	width: 660px;
+	margin: 0 auto 67px;
+}
+
+.section-2-cards {
+}
+
+.section-2-text > h4 {
+	color: #3D37F1;
+	font-size: 20px;
+	margin-bottom: 12px;
+}
+
+.section-2-text > h2 {
+	color: #5A5454;
+	font-size: 40px;
+	margin-bottom: 20px;
+}
+
+.section-2-text > p {
+	color: #747474;
+	font-size: 18px;
+}
+
+.line-1 {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+}
+
+
+.card {
+	width: 370px;
+	height: 450px;
+	background-color: lightgray;
+
+	padding: 0 30px;
+	text-align: center;
+
+	display: -webkit-box;
+
+	display: -ms-flexbox;
+
+	display: flex;
+	-webkit-box-pack: space-evenly;
+	    -ms-flex-pack: space-evenly;
+	        justify-content: space-evenly;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+
+}
+
+/*.card:nth-child(1) {
+	background-color: lightblue;
+	margin-bottom: 60px;
+}
+.card:nth-child(2) {
+	background-color: aqua;
+	margin-bottom: 60px;
+
+}
+.card:nth-child(3) {
+	background-color: lightcyan;
+	margin-bottom: 60px;
+
+}
+.card:nth-child(4) {
+	background-color: green;
+}
+.card:nth-child(5) {
+	background-color: orangered;
+}
+.card:nth-child(6) {
+	background-color: yellow;
+}
+*/
+
+/*.card:nth-child(odd) {
+	background-color: orange;
+
+}
+.card:nth-child(even) {
+	background-color: aqua;
+
+}*/
+
+/*.card:nth-child(5n) {
+	background-color: yellow;
+}*/
+
+.card:first-child {
+	background-color: red;
+}
+
+.card:last-child {
+	background-color: orangered;
+}
+
+.card:nth-child(3) > h4 {
+	font-size: 30px;
+}
+
+/*section 2 end*/
+
+.fa-facebook-messenger {
+	font-size: 50px;
+	-webkit-transition: all 2s;
+	-o-transition: all 2s;
+	transition: all 2s;
+}
+
+.fa-facebook-messenger:hover {
+	color: blue;
+}
+
+.fb {
+	font-size: 50px;
+	-webkit-transition: all 2s;
+	-o-transition: all 2s;
+	transition: all 2s;
+}
+
+.fb:hover {
+	color: red;
+}
